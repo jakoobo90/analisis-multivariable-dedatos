@@ -1,0 +1,857 @@
+{
+  "n_clusters": 3,
+  "cluster_labels": [
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2
+  ],
+  "cluster_sizes": {
+    "0": 30,
+    "1": 42,
+    "2": 28
+  },
+  "cluster_centers_standardized": [
+    [
+      0.1820100025074751,
+      0.18916262800148742,
+      0.22998087448835045
+    ],
+    [
+      -0.993136011820685,
+      -0.9969198392642641,
+      -1.004935883464658
+    ],
+    [
+      1.294693300758733,
+      1.2927055146090887,
+      1.2609957453880412
+    ]
+  ],
+  "feature_names": [
+    "MonthlyIncome",
+    "PurchaseFrequency",
+    "AverageSpending"
+  ],
+  "data_points": [
+    {
+      "customer_id": 1,
+      "cluster": 1,
+      "monthly_income": 5000.0,
+      "purchase_frequency": 12.0,
+      "average_spending": 450.0
+    },
+    {
+      "customer_id": 2,
+      "cluster": 0,
+      "monthly_income": 6200.0,
+      "purchase_frequency": 15.0,
+      "average_spending": 520.0
+    },
+    {
+      "customer_id": 3,
+      "cluster": 1,
+      "monthly_income": 4800.0,
+      "purchase_frequency": 10.0,
+      "average_spending": 380.0
+    },
+    {
+      "customer_id": 4,
+      "cluster": 2,
+      "monthly_income": 7500.0,
+      "purchase_frequency": 18.0,
+      "average_spending": 620.0
+    },
+    {
+      "customer_id": 5,
+      "cluster": 0,
+      "monthly_income": 5500.0,
+      "purchase_frequency": 14.0,
+      "average_spending": 490.0
+    },
+    {
+      "customer_id": 6,
+      "cluster": 0,
+      "monthly_income": 6800.0,
+      "purchase_frequency": 16.0,
+      "average_spending": 580.0
+    },
+    {
+      "customer_id": 7,
+      "cluster": 1,
+      "monthly_income": 4200.0,
+      "purchase_frequency": 8.0,
+      "average_spending": 350.0
+    },
+    {
+      "customer_id": 8,
+      "cluster": 2,
+      "monthly_income": 8000.0,
+      "purchase_frequency": 20.0,
+      "average_spending": 680.0
+    },
+    {
+      "customer_id": 9,
+      "cluster": 1,
+      "monthly_income": 5200.0,
+      "purchase_frequency": 11.0,
+      "average_spending": 420.0
+    },
+    {
+      "customer_id": 10,
+      "cluster": 0,
+      "monthly_income": 6500.0,
+      "purchase_frequency": 17.0,
+      "average_spending": 560.0
+    },
+    {
+      "customer_id": 11,
+      "cluster": 1,
+      "monthly_income": 4500.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 390.0
+    },
+    {
+      "customer_id": 12,
+      "cluster": 2,
+      "monthly_income": 7200.0,
+      "purchase_frequency": 19.0,
+      "average_spending": 640.0
+    },
+    {
+      "customer_id": 13,
+      "cluster": 0,
+      "monthly_income": 5800.0,
+      "purchase_frequency": 13.0,
+      "average_spending": 510.0
+    },
+    {
+      "customer_id": 14,
+      "cluster": 0,
+      "monthly_income": 6000.0,
+      "purchase_frequency": 14.0,
+      "average_spending": 530.0
+    },
+    {
+      "customer_id": 15,
+      "cluster": 1,
+      "monthly_income": 4900.0,
+      "purchase_frequency": 10.0,
+      "average_spending": 400.0
+    },
+    {
+      "customer_id": 16,
+      "cluster": 2,
+      "monthly_income": 7800.0,
+      "purchase_frequency": 21.0,
+      "average_spending": 700.0
+    },
+    {
+      "customer_id": 17,
+      "cluster": 1,
+      "monthly_income": 5300.0,
+      "purchase_frequency": 12.0,
+      "average_spending": 460.0
+    },
+    {
+      "customer_id": 18,
+      "cluster": 0,
+      "monthly_income": 6700.0,
+      "purchase_frequency": 16.0,
+      "average_spending": 570.0
+    },
+    {
+      "customer_id": 19,
+      "cluster": 1,
+      "monthly_income": 4400.0,
+      "purchase_frequency": 8.0,
+      "average_spending": 360.0
+    },
+    {
+      "customer_id": 20,
+      "cluster": 2,
+      "monthly_income": 7000.0,
+      "purchase_frequency": 18.0,
+      "average_spending": 610.0
+    },
+    {
+      "customer_id": 21,
+      "cluster": 0,
+      "monthly_income": 5600.0,
+      "purchase_frequency": 13.0,
+      "average_spending": 500.0
+    },
+    {
+      "customer_id": 22,
+      "cluster": 0,
+      "monthly_income": 6300.0,
+      "purchase_frequency": 15.0,
+      "average_spending": 540.0
+    },
+    {
+      "customer_id": 23,
+      "cluster": 1,
+      "monthly_income": 4700.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 370.0
+    },
+    {
+      "customer_id": 24,
+      "cluster": 2,
+      "monthly_income": 7600.0,
+      "purchase_frequency": 20.0,
+      "average_spending": 660.0
+    },
+    {
+      "customer_id": 25,
+      "cluster": 1,
+      "monthly_income": 5100.0,
+      "purchase_frequency": 11.0,
+      "average_spending": 430.0
+    },
+    {
+      "customer_id": 26,
+      "cluster": 0,
+      "monthly_income": 6600.0,
+      "purchase_frequency": 17.0,
+      "average_spending": 590.0
+    },
+    {
+      "customer_id": 27,
+      "cluster": 1,
+      "monthly_income": 4300.0,
+      "purchase_frequency": 8.0,
+      "average_spending": 340.0
+    },
+    {
+      "customer_id": 28,
+      "cluster": 2,
+      "monthly_income": 7900.0,
+      "purchase_frequency": 22.0,
+      "average_spending": 720.0
+    },
+    {
+      "customer_id": 29,
+      "cluster": 1,
+      "monthly_income": 5400.0,
+      "purchase_frequency": 12.0,
+      "average_spending": 470.0
+    },
+    {
+      "customer_id": 30,
+      "cluster": 2,
+      "monthly_income": 6900.0,
+      "purchase_frequency": 18.0,
+      "average_spending": 600.0
+    },
+    {
+      "customer_id": 31,
+      "cluster": 1,
+      "monthly_income": 4600.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 380.0
+    },
+    {
+      "customer_id": 32,
+      "cluster": 2,
+      "monthly_income": 7300.0,
+      "purchase_frequency": 19.0,
+      "average_spending": 630.0
+    },
+    {
+      "customer_id": 33,
+      "cluster": 0,
+      "monthly_income": 5700.0,
+      "purchase_frequency": 13.0,
+      "average_spending": 490.0
+    },
+    {
+      "customer_id": 34,
+      "cluster": 0,
+      "monthly_income": 6100.0,
+      "purchase_frequency": 15.0,
+      "average_spending": 550.0
+    },
+    {
+      "customer_id": 35,
+      "cluster": 1,
+      "monthly_income": 5000.0,
+      "purchase_frequency": 10.0,
+      "average_spending": 410.0
+    },
+    {
+      "customer_id": 36,
+      "cluster": 2,
+      "monthly_income": 7700.0,
+      "purchase_frequency": 21.0,
+      "average_spending": 690.0
+    },
+    {
+      "customer_id": 37,
+      "cluster": 1,
+      "monthly_income": 5200.0,
+      "purchase_frequency": 11.0,
+      "average_spending": 440.0
+    },
+    {
+      "customer_id": 38,
+      "cluster": 0,
+      "monthly_income": 6800.0,
+      "purchase_frequency": 17.0,
+      "average_spending": 580.0
+    },
+    {
+      "customer_id": 39,
+      "cluster": 1,
+      "monthly_income": 4500.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 360.0
+    },
+    {
+      "customer_id": 40,
+      "cluster": 2,
+      "monthly_income": 7100.0,
+      "purchase_frequency": 18.0,
+      "average_spending": 620.0
+    },
+    {
+      "customer_id": 41,
+      "cluster": 1,
+      "monthly_income": 5500.0,
+      "purchase_frequency": 12.0,
+      "average_spending": 480.0
+    },
+    {
+      "customer_id": 42,
+      "cluster": 0,
+      "monthly_income": 6400.0,
+      "purchase_frequency": 16.0,
+      "average_spending": 560.0
+    },
+    {
+      "customer_id": 43,
+      "cluster": 1,
+      "monthly_income": 4800.0,
+      "purchase_frequency": 10.0,
+      "average_spending": 390.0
+    },
+    {
+      "customer_id": 44,
+      "cluster": 2,
+      "monthly_income": 7500.0,
+      "purchase_frequency": 20.0,
+      "average_spending": 650.0
+    },
+    {
+      "customer_id": 45,
+      "cluster": 1,
+      "monthly_income": 5300.0,
+      "purchase_frequency": 11.0,
+      "average_spending": 450.0
+    },
+    {
+      "customer_id": 46,
+      "cluster": 0,
+      "monthly_income": 6700.0,
+      "purchase_frequency": 17.0,
+      "average_spending": 570.0
+    },
+    {
+      "customer_id": 47,
+      "cluster": 1,
+      "monthly_income": 4400.0,
+      "purchase_frequency": 8.0,
+      "average_spending": 350.0
+    },
+    {
+      "customer_id": 48,
+      "cluster": 2,
+      "monthly_income": 7800.0,
+      "purchase_frequency": 21.0,
+      "average_spending": 700.0
+    },
+    {
+      "customer_id": 49,
+      "cluster": 0,
+      "monthly_income": 5600.0,
+      "purchase_frequency": 13.0,
+      "average_spending": 500.0
+    },
+    {
+      "customer_id": 50,
+      "cluster": 0,
+      "monthly_income": 6200.0,
+      "purchase_frequency": 15.0,
+      "average_spending": 530.0
+    },
+    {
+      "customer_id": 51,
+      "cluster": 1,
+      "monthly_income": 4900.0,
+      "purchase_frequency": 10.0,
+      "average_spending": 400.0
+    },
+    {
+      "customer_id": 52,
+      "cluster": 2,
+      "monthly_income": 7400.0,
+      "purchase_frequency": 19.0,
+      "average_spending": 640.0
+    },
+    {
+      "customer_id": 53,
+      "cluster": 1,
+      "monthly_income": 5100.0,
+      "purchase_frequency": 11.0,
+      "average_spending": 420.0
+    },
+    {
+      "customer_id": 54,
+      "cluster": 0,
+      "monthly_income": 6500.0,
+      "purchase_frequency": 16.0,
+      "average_spending": 570.0
+    },
+    {
+      "customer_id": 55,
+      "cluster": 1,
+      "monthly_income": 4700.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 370.0
+    },
+    {
+      "customer_id": 56,
+      "cluster": 2,
+      "monthly_income": 7600.0,
+      "purchase_frequency": 20.0,
+      "average_spending": 670.0
+    },
+    {
+      "customer_id": 57,
+      "cluster": 1,
+      "monthly_income": 5400.0,
+      "purchase_frequency": 12.0,
+      "average_spending": 470.0
+    },
+    {
+      "customer_id": 58,
+      "cluster": 2,
+      "monthly_income": 6900.0,
+      "purchase_frequency": 18.0,
+      "average_spending": 600.0
+    },
+    {
+      "customer_id": 59,
+      "cluster": 1,
+      "monthly_income": 4600.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 360.0
+    },
+    {
+      "customer_id": 60,
+      "cluster": 2,
+      "monthly_income": 7200.0,
+      "purchase_frequency": 19.0,
+      "average_spending": 630.0
+    },
+    {
+      "customer_id": 61,
+      "cluster": 0,
+      "monthly_income": 5800.0,
+      "purchase_frequency": 13.0,
+      "average_spending": 510.0
+    },
+    {
+      "customer_id": 62,
+      "cluster": 0,
+      "monthly_income": 6000.0,
+      "purchase_frequency": 14.0,
+      "average_spending": 540.0
+    },
+    {
+      "customer_id": 63,
+      "cluster": 1,
+      "monthly_income": 4800.0,
+      "purchase_frequency": 10.0,
+      "average_spending": 390.0
+    },
+    {
+      "customer_id": 64,
+      "cluster": 2,
+      "monthly_income": 7700.0,
+      "purchase_frequency": 21.0,
+      "average_spending": 690.0
+    },
+    {
+      "customer_id": 65,
+      "cluster": 1,
+      "monthly_income": 5200.0,
+      "purchase_frequency": 11.0,
+      "average_spending": 440.0
+    },
+    {
+      "customer_id": 66,
+      "cluster": 0,
+      "monthly_income": 6600.0,
+      "purchase_frequency": 17.0,
+      "average_spending": 580.0
+    },
+    {
+      "customer_id": 67,
+      "cluster": 1,
+      "monthly_income": 4500.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 360.0
+    },
+    {
+      "customer_id": 68,
+      "cluster": 2,
+      "monthly_income": 7900.0,
+      "purchase_frequency": 22.0,
+      "average_spending": 720.0
+    },
+    {
+      "customer_id": 69,
+      "cluster": 1,
+      "monthly_income": 5500.0,
+      "purchase_frequency": 12.0,
+      "average_spending": 480.0
+    },
+    {
+      "customer_id": 70,
+      "cluster": 0,
+      "monthly_income": 6300.0,
+      "purchase_frequency": 15.0,
+      "average_spending": 550.0
+    },
+    {
+      "customer_id": 71,
+      "cluster": 1,
+      "monthly_income": 4900.0,
+      "purchase_frequency": 10.0,
+      "average_spending": 400.0
+    },
+    {
+      "customer_id": 72,
+      "cluster": 2,
+      "monthly_income": 7500.0,
+      "purchase_frequency": 20.0,
+      "average_spending": 660.0
+    },
+    {
+      "customer_id": 73,
+      "cluster": 1,
+      "monthly_income": 5300.0,
+      "purchase_frequency": 11.0,
+      "average_spending": 450.0
+    },
+    {
+      "customer_id": 74,
+      "cluster": 0,
+      "monthly_income": 6800.0,
+      "purchase_frequency": 17.0,
+      "average_spending": 590.0
+    },
+    {
+      "customer_id": 75,
+      "cluster": 1,
+      "monthly_income": 4400.0,
+      "purchase_frequency": 8.0,
+      "average_spending": 340.0
+    },
+    {
+      "customer_id": 76,
+      "cluster": 2,
+      "monthly_income": 7100.0,
+      "purchase_frequency": 18.0,
+      "average_spending": 620.0
+    },
+    {
+      "customer_id": 77,
+      "cluster": 0,
+      "monthly_income": 5600.0,
+      "purchase_frequency": 13.0,
+      "average_spending": 490.0
+    },
+    {
+      "customer_id": 78,
+      "cluster": 0,
+      "monthly_income": 6100.0,
+      "purchase_frequency": 15.0,
+      "average_spending": 540.0
+    },
+    {
+      "customer_id": 79,
+      "cluster": 1,
+      "monthly_income": 4700.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 380.0
+    },
+    {
+      "customer_id": 80,
+      "cluster": 2,
+      "monthly_income": 7800.0,
+      "purchase_frequency": 21.0,
+      "average_spending": 700.0
+    },
+    {
+      "customer_id": 81,
+      "cluster": 1,
+      "monthly_income": 5100.0,
+      "purchase_frequency": 11.0,
+      "average_spending": 420.0
+    },
+    {
+      "customer_id": 82,
+      "cluster": 0,
+      "monthly_income": 6700.0,
+      "purchase_frequency": 17.0,
+      "average_spending": 580.0
+    },
+    {
+      "customer_id": 83,
+      "cluster": 1,
+      "monthly_income": 4800.0,
+      "purchase_frequency": 10.0,
+      "average_spending": 390.0
+    },
+    {
+      "customer_id": 84,
+      "cluster": 2,
+      "monthly_income": 7400.0,
+      "purchase_frequency": 19.0,
+      "average_spending": 650.0
+    },
+    {
+      "customer_id": 85,
+      "cluster": 1,
+      "monthly_income": 5400.0,
+      "purchase_frequency": 12.0,
+      "average_spending": 470.0
+    },
+    {
+      "customer_id": 86,
+      "cluster": 0,
+      "monthly_income": 6500.0,
+      "purchase_frequency": 16.0,
+      "average_spending": 570.0
+    },
+    {
+      "customer_id": 87,
+      "cluster": 1,
+      "monthly_income": 4600.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 360.0
+    },
+    {
+      "customer_id": 88,
+      "cluster": 2,
+      "monthly_income": 7600.0,
+      "purchase_frequency": 20.0,
+      "average_spending": 680.0
+    },
+    {
+      "customer_id": 89,
+      "cluster": 1,
+      "monthly_income": 5200.0,
+      "purchase_frequency": 11.0,
+      "average_spending": 440.0
+    },
+    {
+      "customer_id": 90,
+      "cluster": 2,
+      "monthly_income": 6900.0,
+      "purchase_frequency": 18.0,
+      "average_spending": 610.0
+    },
+    {
+      "customer_id": 91,
+      "cluster": 1,
+      "monthly_income": 4500.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 360.0
+    },
+    {
+      "customer_id": 92,
+      "cluster": 2,
+      "monthly_income": 7200.0,
+      "purchase_frequency": 19.0,
+      "average_spending": 630.0
+    },
+    {
+      "customer_id": 93,
+      "cluster": 0,
+      "monthly_income": 5700.0,
+      "purchase_frequency": 13.0,
+      "average_spending": 500.0
+    },
+    {
+      "customer_id": 94,
+      "cluster": 0,
+      "monthly_income": 6000.0,
+      "purchase_frequency": 14.0,
+      "average_spending": 540.0
+    },
+    {
+      "customer_id": 95,
+      "cluster": 1,
+      "monthly_income": 4900.0,
+      "purchase_frequency": 10.0,
+      "average_spending": 400.0
+    },
+    {
+      "customer_id": 96,
+      "cluster": 2,
+      "monthly_income": 7700.0,
+      "purchase_frequency": 21.0,
+      "average_spending": 690.0
+    },
+    {
+      "customer_id": 97,
+      "cluster": 1,
+      "monthly_income": 5300.0,
+      "purchase_frequency": 11.0,
+      "average_spending": 450.0
+    },
+    {
+      "customer_id": 98,
+      "cluster": 0,
+      "monthly_income": 6400.0,
+      "purchase_frequency": 16.0,
+      "average_spending": 560.0
+    },
+    {
+      "customer_id": 99,
+      "cluster": 1,
+      "monthly_income": 4700.0,
+      "purchase_frequency": 9.0,
+      "average_spending": 380.0
+    },
+    {
+      "customer_id": 100,
+      "cluster": 2,
+      "monthly_income": 7900.0,
+      "purchase_frequency": 22.0,
+      "average_spending": 720.0
+    }
+  ],
+  "cluster_statistics": [
+    {
+      "cluster_id": 0,
+      "size": 30,
+      "mean_income": 6216.666666666667,
+      "mean_frequency": 15.066666666666666,
+      "mean_spending": 543.0
+    },
+    {
+      "cluster_id": 1,
+      "size": 42,
+      "mean_income": 4895.238095238095,
+      "mean_frequency": 10.071428571428571,
+      "mean_spending": 405.0
+    },
+    {
+      "cluster_id": 2,
+      "size": 28,
+      "mean_income": 7467.857142857143,
+      "mean_frequency": 19.714285714285715,
+      "mean_spending": 658.2142857142857
+    }
+  ]
+}

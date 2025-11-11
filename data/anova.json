@@ -1,0 +1,26 @@
+{
+  "groups": [
+    "Gender",
+    "Residual"
+  ],
+  "table": [
+    {
+      "source": "Gender",
+      "sum_squares": 946728.9999999966,
+      "df": 1,
+      "f_value": 307.1739758046883,
+      "p_value": 5.749298840043158e-32
+    },
+    {
+      "source": "Residual",
+      "sum_squares": 302042.0,
+      "df": 98,
+      "f_value": null,
+      "p_value": null
+    }
+  ],
+  "means_by_group": {
+    "F": 614.6,
+    "M": 420.0
+  }
+}

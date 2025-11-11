@@ -1,0 +1,29 @@
+{
+  "r_squared": 0.9898333867014605,
+  "adj_r_squared": 0.9896237658087071,
+  "f_statistic": 4722.016845267192,
+  "f_pvalue": 2.228695756355104e-97,
+  "coefficients": [
+    {
+      "variable": "Intercept",
+      "coefficient": 37.04926567097482,
+      "std_error": 19.93191183452425,
+      "t_value": 1.8587913682620971,
+      "p_value": 0.06608861798573527
+    },
+    {
+      "variable": "MonthlyIncome",
+      "coefficient": 0.04673465148543929,
+      "std_error": 0.00876146227654264,
+      "t_value": 5.334115471861764,
+      "p_value": 6.278855874296047e-07
+    },
+    {
+      "variable": "PurchaseFrequency",
+      "coefficient": 13.965102284412344,
+      "std_error": 2.339306614979784,
+      "t_value": 5.969761379285044,
+      "p_value": 3.895915234212011e-08
+    }
+  ]
+}
