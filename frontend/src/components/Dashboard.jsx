@@ -30,12 +30,13 @@ const Dashboard = ({ language }) => {
   useEffect(() => {
     const loadData = async () => {
       try {
+        const basePath = import.meta.env.BASE_URL;
         const [summaryRes, regressionRes, anovaRes, pcaRes, clustersRes] = await Promise.all([
-          fetch('/data/summary.json'),
-          fetch('/data/regression.json'),
-          fetch('/data/anova.json'),
-          fetch('/data/pca.json'),
-          fetch('/data/clusters.json')
+          fetch(`${basePath}data/summary.json`),
+          fetch(`${basePath}data/regression.json`),
+          fetch(`${basePath}data/anova.json`),
+          fetch(`${basePath}data/pca.json`),
+          fetch(`${basePath}data/clusters.json`)
         ]);
 
         if (!summaryRes.ok || !regressionRes.ok || !anovaRes.ok || !pcaRes.ok || !clustersRes.ok) {
